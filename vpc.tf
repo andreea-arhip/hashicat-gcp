@@ -1,7 +1,7 @@
 module "network" {
   source  = "app.terraform.io/andreealemnaru-training/network/google"
   version = "2.5.0"
-  network = "gaurav-network"
+  network_name = "gaurav-network"
   project_id = var.project
   subnets = [
   {
